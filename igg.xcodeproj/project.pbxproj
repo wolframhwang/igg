@@ -14,6 +14,7 @@
 		72D75B832766466E00D68C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D75B822766466E00D68C2F /* Assets.xcassets */; };
 		72D75B862766466E00D68C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D75B842766466E00D68C2F /* LaunchScreen.storyboard */; };
 		72D75B90276648D400D68C2F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D75B8F276648D400D68C2F /* TabBarController.swift */; };
+		72D75B9327664DE600D68C2F /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D75B9227664DE600D68C2F /* FeedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		72D75B852766466E00D68C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72D75B872766466E00D68C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72D75B8F276648D400D68C2F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		72D75B9227664DE600D68C2F /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		897B526B3DA212FB922C540C /* Pods-igg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igg.release.xcconfig"; path = "Target Support Files/Pods-igg/Pods-igg.release.xcconfig"; sourceTree = "<group>"; };
 		DD541A62315744AD6F82366B /* Pods-igg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igg.debug.xcconfig"; path = "Target Support Files/Pods-igg/Pods-igg.debug.xcconfig"; sourceTree = "<group>"; };
 		E01C2C843487187E515E2F9F /* Pods_igg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_igg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,7 @@
 			children = (
 				72D75B7D2766466D00D68C2F /* FeedViewController.swift */,
 				72D75B8F276648D400D68C2F /* TabBarController.swift */,
+				72D75B9227664DE600D68C2F /* FeedTableViewCell.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				72D75B7A2766466D00D68C2F /* AppDelegate.swift in Sources */,
 				72D75B90276648D400D68C2F /* TabBarController.swift in Sources */,
 				72D75B7C2766466D00D68C2F /* SceneDelegate.swift in Sources */,
+				72D75B9327664DE600D68C2F /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
