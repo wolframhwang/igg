@@ -18,25 +18,26 @@ final class FeedTableViewCell : UITableViewCell {
     
     private lazy var likeButton: UIButton = {
         let button = UIButton()
-        button.setImage(UIImage(systemName: "heart"), for: .normal)
+        button.setImage(systemName: "heart")
         return button
     }()
     
     private lazy var commentButton: UIButton = {
         let button = UIButton()
-        button.setImage(UIImage(systemName: "message"), for: .normal)
+        button.setImage(systemName: "message")
+//        button.setImage(systemName: <#T##String#>)
         return button
     }()
     
     
     private lazy var directMessageButton: UIButton = {
         let button = UIButton()
-        button.setImage(UIImage(systemName: "paperplane"), for: .normal)
+        button.setImage(systemName: "paperplane")
         return button
     }()
     private lazy var bookMarkButton: UIButton = {
         let button = UIButton()
-        button.setImage(UIImage(systemName: "bookmark"), for: .normal)
+        button.setImage(systemName: "bookmark")
         return button
     }()
     
