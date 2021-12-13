@@ -4,6 +4,7 @@
 - $ pod init
 - $ vi Podfile
 - input like it
+
 '''bash
   pod 'SnapKit'
 '''
