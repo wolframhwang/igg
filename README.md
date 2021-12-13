@@ -5,9 +5,9 @@
 - $ vi Podfile
 - input like it
 
-'''
+```bash
   pod \'SnapKit\'
-'''
+```
 - $ pod install
 
 open & run.
