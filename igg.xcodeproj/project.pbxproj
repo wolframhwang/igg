@@ -16,6 +16,10 @@
 		72D75B90276648D400D68C2F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D75B8F276648D400D68C2F /* TabBarController.swift */; };
 		72D75B9327664DE600D68C2F /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D75B9227664DE600D68C2F /* FeedTableViewCell.swift */; };
 		72D75B95276655B200D68C2F /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D75B94276655B200D68C2F /* UIButton+.swift */; };
+		7BCE4B4127676F58008C07A5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE4B4027676F58008C07A5 /* ProfileViewController.swift */; };
+		7BCE4B4327677475008C07A5 /* ProfileDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE4B4227677475008C07A5 /* ProfileDataView.swift */; };
+		7BCE4B4527677998008C07A5 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE4B4427677998008C07A5 /* ProfileCollectionViewCell.swift */; };
+		7BCE4B4727678541008C07A5 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE4B4627678541008C07A5 /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		72D75B8F276648D400D68C2F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		72D75B9227664DE600D68C2F /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		72D75B94276655B200D68C2F /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		7BCE4B4027676F58008C07A5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7BCE4B4227677475008C07A5 /* ProfileDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataView.swift; sourceTree = "<group>"; };
+		7BCE4B4427677998008C07A5 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		7BCE4B4627678541008C07A5 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		897B526B3DA212FB922C540C /* Pods-igg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igg.release.xcconfig"; path = "Target Support Files/Pods-igg/Pods-igg.release.xcconfig"; sourceTree = "<group>"; };
 		DD541A62315744AD6F82366B /* Pods-igg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-igg.debug.xcconfig"; path = "Target Support Files/Pods-igg/Pods-igg.debug.xcconfig"; sourceTree = "<group>"; };
 		E01C2C843487187E515E2F9F /* Pods_igg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_igg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,11 +97,31 @@
 		72D75B91276648F500D68C2F /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				72D75B7D2766466D00D68C2F /* FeedViewController.swift */,
-				72D75B9227664DE600D68C2F /* FeedTableViewCell.swift */,
+				7BCE4B3F27676F49008C07A5 /* Profile */,
+				7BCE4B3E27676F11008C07A5 /* Feed */,
 				72D75B8F276648D400D68C2F /* TabBarController.swift */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		7BCE4B3E27676F11008C07A5 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				72D75B7D2766466D00D68C2F /* FeedViewController.swift */,
+				72D75B9227664DE600D68C2F /* FeedTableViewCell.swift */,
+				7BCE4B4627678541008C07A5 /* UploadViewController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		7BCE4B3F27676F49008C07A5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE4B4027676F58008C07A5 /* ProfileViewController.swift */,
+				7BCE4B4227677475008C07A5 /* ProfileDataView.swift */,
+				7BCE4B4427677998008C07A5 /* ProfileCollectionViewCell.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		F36608E0214AED18FF1CE398 /* Pods */ = {
@@ -220,10 +248,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				72D75B7E2766466D00D68C2F /* FeedViewController.swift in Sources */,
+				7BCE4B4727678541008C07A5 /* UploadViewController.swift in Sources */,
+				7BCE4B4527677998008C07A5 /* ProfileCollectionViewCell.swift in Sources */,
 				72D75B95276655B200D68C2F /* UIButton+.swift in Sources */,
 				72D75B7A2766466D00D68C2F /* AppDelegate.swift in Sources */,
 				72D75B90276648D400D68C2F /* TabBarController.swift in Sources */,
+				7BCE4B4127676F58008C07A5 /* ProfileViewController.swift in Sources */,
 				72D75B7C2766466D00D68C2F /* SceneDelegate.swift in Sources */,
+				7BCE4B4327677475008C07A5 /* ProfileDataView.swift in Sources */,
 				72D75B9327664DE600D68C2F /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
