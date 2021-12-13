@@ -6,7 +6,7 @@
 - input like it
 
 ```bash
-  pod \'SnapKit\'
+  pod 'SnapKit'
 ```
 - $ pod install
 
